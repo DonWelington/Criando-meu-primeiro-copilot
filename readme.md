@@ -1,40 +1,53 @@
-# 🧩 Criando Meu Primeiro Copilot: Modos do Copiloto
+# 🧩 Criando Meu Primeiro Copilot: Modos de Operação
 
-> **Desafio Copilot — Bootcamp Globant + DIO**
+> **Desafio Copilot — BOOTCAMP GLOBANT + DIO**
 
-Este repositório documenta os principais modos de operação do GitHub Copilot explorados durante o desafio prático. O objetivo é compreender como cada modo (Plan, Agent e Study) atua no fluxo de desenvolvimento, desde a concepção de uma ideia até o aprendizado ativo.
+Este repositório documenta os três principais modos de operação do GitHub Copilot (Plan, Agent e Study). O objetivo é entender como cada modo atua para otimizar o fluxo de trabalho, desde o planejamento até o aprendizado contínuo.
 
 ---
 
-## 🚀 Funcionalidades e Modos
+## 🚀 Como o Copiloto Trabalha
 
 ### 🧭 Plan (Planejamento)
-Quando a solicitação é mais complexa, o Copiloto pode entrar no modo **Plan**, focado no **planejamento antes da implementação**.
+Quando você pede algo mais complexo, o Copiloto pode entrar em um modo de **planejamento**, onde ele **pensa e descreve os passos antes de sair codando**. 
 
-**Como funciona:**
+**Neste modo, ele:**
 * Divide o problema em etapas lógicas.
-* Explica a abordagem que será adotada.
-* Organiza a execução do fluxo.
-* Só depois de estruturado, parte para a escrita do código.
+* Explica o que vai fazer.
+* Só executa o código após a estruturação.
 
-**Ideal para:**
-* Grandes mudanças na base de código.
-* Criação de novas funcionalidades do zero.
-* Validação de estratégia antes de alterar o projeto.
-
-> 💡 **Dica:** Excelente para quando você precisa entender **como resolver um problema antes de tentar implementá-lo**.
+> 💡 **Casos de Uso:** Muito útil para **mudanças grandes**, criação de **novas features** ou quando você quer **validar a abordagem** antes de alterar o código do projeto.
 
 ---
 
 ### 🤖 Agent (Autonomia)
-O **Agent** é o modo de maior autonomia do Copiloto. Ele atua como um verdadeiro assistente de desenvolvimento, executando tarefas mais abrangentes a partir de um objetivo definido.
+O **Agent** é o modo mais “autônomo”. Ele atua como se fosse um desenvolvedor júnior trabalhando lado a lado com você. 
 
-**Capacidades do Agent:**
-* Navegar de forma inteligente pelo projeto.
-* Criar e modificar arquivos simultaneamente.
-* Executar alterações em múltiplos pontos do código.
-* Manter o contexto ativo entre diferentes etapas do desenvolvimento.
+**Neste modo, ele é capaz de:**
+* Navegar pelo projeto.
+* Criar novos arquivos.
+* Modificar múltiplos pontos do código simultaneamente.
+* Manter o contexto entre os passos executados.
 
-**Exemplo de uso:**
-```text
-"Implemente a autenticação de usuários utilizando JWT."
+> 💡 **Exemplo Prático:** Você dá um objetivo como *"implemente login com JWT"* e ele decide o que precisa ser feito em vários arquivos da aplicação para chegar lá.
+
+---
+
+### 📚 Study (Aprendizado Ativo)
+O modo **Study** é focado em **aprendizado ativo**, não se limitando apenas a entregar a resposta ou o código final. Ele funciona quase como um **tutor particular**.
+
+**Em vez de simplesmente explicar ou executar, ele:**
+* Ensina e guia o seu raciocínio.
+* Destaca conceitos importantes e *trade-offs* (vantagens e desvantagens).
+* Faz perguntas reflexivas para consolidar o conhecimento.
+* Avança em uma progressão gradual de dificuldade.
+
+---
+
+## 🧠 Resumo Mental Rápido
+
+| Modo | Objetivo Principal |
+| :--- | :--- |
+| **Plan** | Planejar a estrutura e os passos antes de agir. |
+| **Agent** | Executar tarefas grandes e complexas sozinho. |
+| **Study** | Focar no entendimento e aprendizado ativo. |
